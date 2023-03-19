@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    background-color: rgb(197, 197, 252);
+    padding: 34px;
+    margin: auto;
+}
+
+.container h3, p{
+    text-align: center;
+}
+
+input,textarea{
+    width: 80%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 10px;
+    display: block;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background-color: #839eee;
+    font-size: 20px;
+    border: 2px solid rgb(72, 72, 72);
+    border-radius: 7px;
+    padding: 6px;
+    cursor: pointer;
+}
